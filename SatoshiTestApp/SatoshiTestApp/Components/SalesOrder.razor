@@ -1,0 +1,70 @@
+﻿@using Blazorise.DataGrid
+@using SatoshiTestApp.Models
+<h2>Sales Order</h2>
+<EditForm Model="salesOrderModel">
+    @if (salesOrderModel != null)
+    {
+        <div class="form-group col-md-4">
+            <label>Customer Name</label>
+            <input id="txtCustomerName" class="form-control" type="text" @bind-value="@salesOrderModel.customerName" required/>
+        </div>
+        <div class="form-group col-md-4">
+            <label>Product Name</label>
+            <select @bind="salesOrderModel.productID" class="form-control">
+                <option value="0">Select Product</option>
+                @if (salesOrderModel.products! != null)
+                {
+                    @foreach (var product in salesOrderModel.products)
+                    {
+                        <option value=@product.id>@product.productName</option>
+                    }
+                }
+            </select>
+        </div>
+        <div class="form-group col-md-2">
+            <label>Price $</label>
+            <input id="txtPrice" class="form-control" type="text" @bind-value="salesOrderModel.price" required />
+        </div>
+        <div class="form-group col-md-2">
+            <input type="button" class="btn btn-primary" @onclick="SaveSalesOrder" value="Save" />
+
+            <input type="button" class="btn btn-primary" @onclick="ClearFields" value="Clear" />
+        </div>
+        @if (!string.IsNullOrWhiteSpace(statusMessage))
+        {
+            <div class="form-group oi-bold col-md-2">
+                <label>@statusMessage</label>
+            </div>
+        }
+    }
+</EditForm>
+
+@if (salesorderList == null)
+{
+   <p> Loading.....</p>
+}
+else
+{
+<DataGrid TItem="SalesOrderModel"
+          Data="@salesorderList" UseInternalEditing="true"
+          @bind-SelectedRow="@selectedOrder" EditMode="DataGridEditMode.Inline" Editable="true"
+          >
+    @*<DataGridCommandColumn TItem="SalesOrderModel">
+        <EditCommandTemplate>
+            <Blazorise.Button Color="@Blazorise.Color.Primary" Clicked="context.Clicked">Edit</Blazorise.Button>
+        </EditCommandTemplate>
+    </DataGridCommandColumn>*@
+    <DataGridColumn TItem="SalesOrderModel" Field="@nameof(SalesOrderModel.id)" Caption="#"  />
+    <DataGridColumn TItem="SalesOrderModel" Field="@nameof(SalesOrderModel.customerName)" Caption="Customer Name" Sortable="true"  />
+    <DataGridColumn TItem="SalesOrderModel" Field="@nameof(SalesOrderModel.productID)" Caption="Product Name" >
+        <DisplayTemplate>
+            @salesOrderModel.products.Where(x => x.id == context.productID).Select(x => x.productName).FirstOrDefault() 
+        </DisplayTemplate>
+    </DataGridColumn>
+    <DataGridColumn TItem="SalesOrderModel" Field="@nameof(SalesOrderModel.price)" Caption="Sold Price" Sortable="true">
+        <DisplayTemplate>
+            @context.price $
+        </DisplayTemplate>
+    </DataGridColumn>
+</DataGrid>
+}

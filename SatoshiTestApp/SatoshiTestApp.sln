@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatoshiTestApp", "SatoshiTestApp\SatoshiTestApp.csproj", "{8316E66C-9C19-4405-94B0-976346B8EFEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SathoshiTestApi", "SathoshiTestApi\SathoshiTestApi.csproj", "{5F2EBF62-9553-4A26-9C6D-3B54F36B7ED5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8316E66C-9C19-4405-94B0-976346B8EFEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8316E66C-9C19-4405-94B0-976346B8EFEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8316E66C-9C19-4405-94B0-976346B8EFEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8316E66C-9C19-4405-94B0-976346B8EFEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F2EBF62-9553-4A26-9C6D-3B54F36B7ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F2EBF62-9553-4A26-9C6D-3B54F36B7ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F2EBF62-9553-4A26-9C6D-3B54F36B7ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F2EBF62-9553-4A26-9C6D-3B54F36B7ED5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F42674F5-8736-4845-9DFC-630A4FAEDAFA}
+	EndGlobalSection
+EndGlobal
