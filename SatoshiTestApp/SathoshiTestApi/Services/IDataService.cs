@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Satoshi.Domain.Sales;
 using SatoshiTestApi.Models; 
 namespace SatoshiTestApi.Services
 {

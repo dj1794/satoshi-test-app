@@ -1687,6 +1687,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Satoshi.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Satoshi.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Satoshi.Domain.dll": {}
+        }
       }
     }
   },
@@ -6255,6 +6265,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Satoshi.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Satoshi.Domain/Satoshi.Domain.csproj",
+      "msbuildProject": "../Satoshi.Domain/Satoshi.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6266,7 +6281,8 @@
       "Microsoft.EntityFrameworkCore >= 5.0.9",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.9",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.9",
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.13"
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.13",
+      "Satoshi.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6302,7 +6318,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Sample Projects\\Git\\SatoshiTestApp\\Satoshi.Domain\\Satoshi.Domain.csproj": {
+              "projectPath": "D:\\Sample Projects\\Git\\SatoshiTestApp\\Satoshi.Domain\\Satoshi.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

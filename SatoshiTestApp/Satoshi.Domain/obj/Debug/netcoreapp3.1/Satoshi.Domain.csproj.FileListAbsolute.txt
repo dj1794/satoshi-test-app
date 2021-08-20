@@ -1,0 +1,9 @@
+D:\Sample Projects\Git\SatoshiTestApp\Satoshi.Domain\bin\Debug\netcoreapp3.1\Satoshi.Domain.deps.json
+D:\Sample Projects\Git\SatoshiTestApp\Satoshi.Domain\bin\Debug\netcoreapp3.1\Satoshi.Domain.dll
+D:\Sample Projects\Git\SatoshiTestApp\Satoshi.Domain\bin\Debug\netcoreapp3.1\Satoshi.Domain.pdb
+D:\Sample Projects\Git\SatoshiTestApp\Satoshi.Domain\obj\Debug\netcoreapp3.1\Satoshi.Domain.AssemblyInfoInputs.cache
+D:\Sample Projects\Git\SatoshiTestApp\Satoshi.Domain\obj\Debug\netcoreapp3.1\Satoshi.Domain.AssemblyInfo.cs
+D:\Sample Projects\Git\SatoshiTestApp\Satoshi.Domain\obj\Debug\netcoreapp3.1\Satoshi.Domain.csproj.CoreCompileInputs.cache
+D:\Sample Projects\Git\SatoshiTestApp\Satoshi.Domain\obj\Debug\netcoreapp3.1\Satoshi.Domain.dll
+D:\Sample Projects\Git\SatoshiTestApp\Satoshi.Domain\obj\Debug\netcoreapp3.1\Satoshi.Domain.pdb
+D:\Sample Projects\Git\SatoshiTestApp\Satoshi.Domain\obj\Debug\netcoreapp3.1\Satoshi.Domain.csprojAssemblyReference.cache

@@ -120,3 +120,5 @@ D:\Sample Projects\Git\SatoshiTestApp\SathoshiTestApi\obj\Debug\net5.0\ref\Satho
 D:\Sample Projects\Git\SatoshiTestApp\SathoshiTestApi\obj\Debug\net5.0\SathoshiTestApi.pdb
 D:\Sample Projects\Git\SatoshiTestApp\SathoshiTestApi\obj\Debug\net5.0\SathoshiTestApi.genruntimeconfig.cache
 D:\Sample Projects\Git\SatoshiTestApp\SathoshiTestApi\obj\Debug\net5.0\SathoshiTestApi.csprojAssemblyReference.cache
+D:\Sample Projects\Git\SatoshiTestApp\SathoshiTestApi\bin\Debug\net5.0\Satoshi.Domain.dll
+D:\Sample Projects\Git\SatoshiTestApp\SathoshiTestApi\bin\Debug\net5.0\Satoshi.Domain.pdb

@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components;
-using SatoshiTestApp.Models;
+using Satoshi.Domain.Sales;
 using SatoshiTestApp.Services;
 using Blazorise.DataGrid;
+
 namespace SatoshiTestApp.Components
 {
     public partial class SalesOrder

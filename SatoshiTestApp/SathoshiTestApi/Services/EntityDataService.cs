@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Satoshi.Domain.Sales;
 using SatoshiTestApi.Models;
 using System;
 using System.Collections.Generic;

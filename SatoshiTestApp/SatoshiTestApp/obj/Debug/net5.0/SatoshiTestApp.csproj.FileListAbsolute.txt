@@ -188,3 +188,5 @@ D:\Sample Projects\Git\SatoshiTestApp\SatoshiTestApp\obj\Debug\net5.0\SatoshiTes
 D:\Sample Projects\Git\SatoshiTestApp\SatoshiTestApp\obj\Debug\net5.0\ref\SatoshiTestApp.dll
 D:\Sample Projects\Git\SatoshiTestApp\SatoshiTestApp\obj\Debug\net5.0\SatoshiTestApp.pdb
 D:\Sample Projects\Git\SatoshiTestApp\SatoshiTestApp\obj\Debug\net5.0\SatoshiTestApp.genruntimeconfig.cache
+D:\Sample Projects\Git\SatoshiTestApp\SatoshiTestApp\bin\Debug\net5.0\Satoshi.Domain.dll
+D:\Sample Projects\Git\SatoshiTestApp\SatoshiTestApp\bin\Debug\net5.0\Satoshi.Domain.pdb

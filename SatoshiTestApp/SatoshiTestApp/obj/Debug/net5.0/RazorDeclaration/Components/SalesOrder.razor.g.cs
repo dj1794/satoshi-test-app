@@ -91,7 +91,7 @@ using Blazorise.DataGrid;
 #nullable disable
 #nullable restore
 #line 2 "D:\Sample Projects\Git\SatoshiTestApp\SatoshiTestApp\Components\SalesOrder.razor"
-using SatoshiTestApp.Models;
+using Satoshi.Domain.Sales;
 
 #line default
 #line hidden

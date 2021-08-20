@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Satoshi.Domain.Sales;
 using SatoshiTestApi.Models;
 using SatoshiTestApi.Services;
 using System;
