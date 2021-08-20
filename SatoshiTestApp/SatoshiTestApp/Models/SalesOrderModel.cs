@@ -12,7 +12,6 @@ namespace SatoshiTestApp.Models
         public string customerName { get; set; }
         public decimal price { get; set; }
         public int productID { get; set; }
-        public virtual List<ProductsModel> products{get;set;}
     }
 
     public class ProductsModel

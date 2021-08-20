@@ -14,11 +14,12 @@ namespace SatoshiTestApp.Components
         IApiService apiService { get; set; }
         SalesOrderModel salesOrderModel = new SalesOrderModel();
         List<SalesOrderModel> salesorderList = new List<SalesOrderModel>();
+        List<ProductsModel> productsList = new List<ProductsModel>();
         private SalesOrderModel selectedOrder;
         string statusMessage;
         protected override async Task OnInitializedAsync()
         {
-           salesOrderModel.products = await apiService.Get<List<ProductsModel>>("api/Sales/GetProducts");
+            productsList = await apiService.Get<List<ProductsModel>>("api/Sales/GetProducts");
            await BindGrid();
             StateHasChanged();
         }

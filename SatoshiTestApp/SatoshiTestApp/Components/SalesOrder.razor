@@ -12,9 +12,9 @@
             <label>Product Name</label>
             <select @bind="salesOrderModel.productID" class="form-control">
                 <option value="0">Select Product</option>
-                @if (salesOrderModel.products! != null)
+                @if (productsList != null)
                 {
-                    @foreach (var product in salesOrderModel.products)
+                    @foreach (var product in productsList)
                     {
                         <option value=@product.id>@product.productName</option>
                     }
@@ -58,7 +58,7 @@ else
     <DataGridColumn TItem="SalesOrderModel" Field="@nameof(SalesOrderModel.customerName)" Caption="Customer Name" Sortable="true"  />
     <DataGridColumn TItem="SalesOrderModel" Field="@nameof(SalesOrderModel.productID)" Caption="Product Name" >
         <DisplayTemplate>
-            @salesOrderModel.products.Where(x => x.id == context.productID).Select(x => x.productName).FirstOrDefault() 
+            @productsList.Where(x => x.id == context.productID).Select(x => x.productName).FirstOrDefault() 
         </DisplayTemplate>
     </DataGridColumn>
     <DataGridColumn TItem="SalesOrderModel" Field="@nameof(SalesOrderModel.price)" Caption="Sold Price" Sortable="true">
