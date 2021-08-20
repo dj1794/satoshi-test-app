@@ -30,11 +30,12 @@ namespace SatoshiTestApi.Services
         {
             try
             {
-                
+
                 context.SalesOrders.Add(salesOrder);
                 var status = await context.SaveChangesAsync();
                 return true;
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
                 return false;

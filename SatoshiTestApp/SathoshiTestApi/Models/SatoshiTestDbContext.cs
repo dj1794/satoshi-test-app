@@ -8,17 +8,14 @@ namespace SatoshiTestApi.Models
 {
     public class SatoshiTestDbContext : DbContext
     {
+       
         public SatoshiTestDbContext(DbContextOptions<SatoshiTestDbContext> options) : base(options)
         {
 
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //    // Configure StudentId as FK for StudentAddress
-            //    modelBuilder.Entity<SalesOrderModel>()
-            //                .HasRequired(s => s.Address)
-            //                .WithRequiredPrincipal(ad => ad.Student
-            //                
+                       
             modelBuilder.Entity<ProductsModel>().HasData(new ProductsModel
             {
                 id = 1,
