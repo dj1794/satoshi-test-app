@@ -6276,11 +6276,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dines\\source\\repos\\SatoshiTestApp\\SatoshiTestApp\\SatoshiTestApp.csproj",
+      "projectUniqueName": "D:\\Sample Projects\\Git\\SatoshiTestApp\\SatoshiTestApp\\SatoshiTestApp.csproj",
       "projectName": "SatoshiTestApp",
-      "projectPath": "C:\\Users\\dines\\source\\repos\\SatoshiTestApp\\SatoshiTestApp\\SatoshiTestApp.csproj",
+      "projectPath": "D:\\Sample Projects\\Git\\SatoshiTestApp\\SatoshiTestApp\\SatoshiTestApp.csproj",
       "packagesPath": "C:\\Users\\dines\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dines\\source\\repos\\SatoshiTestApp\\SatoshiTestApp\\obj\\",
+      "outputPath": "D:\\Sample Projects\\Git\\SatoshiTestApp\\SatoshiTestApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

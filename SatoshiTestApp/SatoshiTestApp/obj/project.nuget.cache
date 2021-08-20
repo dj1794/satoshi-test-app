@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GjDfjAHvjvMWQrHOmko72tnCHR7UeDCdhdfQRp1yD4rYC7chupsPOGkPaaQbVmjM/CPZ1/gtTjJ7BpQWIUEIAg==",
+  "dgSpecHash": "mxIjPEDaIMt1h8td6aE5VwPCy5kzrPfxCYsAOeSqxGfKU0nJOrTwiFG141fqx3cZqfKzhFrVRvMAYCL2wWKD5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dines\\source\\repos\\SatoshiTestApp\\SatoshiTestApp\\SatoshiTestApp.csproj",
+  "projectFilePath": "D:\\Sample Projects\\Git\\SatoshiTestApp\\SatoshiTestApp\\SatoshiTestApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dines\\.nuget\\packages\\blazorise\\0.9.4.3\\blazorise.0.9.4.3.nupkg.sha512",
     "C:\\Users\\dines\\.nuget\\packages\\blazorise.bootstrap\\0.9.4.3\\blazorise.bootstrap.0.9.4.3.nupkg.sha512",

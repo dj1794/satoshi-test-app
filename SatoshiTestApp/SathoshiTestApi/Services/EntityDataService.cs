@@ -28,9 +28,17 @@ namespace SatoshiTestApi.Services
 
         public async Task<bool> SaveOrder(SalesOrderModel salesOrder)
         {
-            context.SalesOrders.Add(salesOrder);
-            await context.SaveChangesAsync();
-            return true;
+            try
+            {
+                
+                context.SalesOrders.Add(salesOrder);
+                var status = await context.SaveChangesAsync();
+                return true;
+            }catch(Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return false;
+            }
         }
     }
 }

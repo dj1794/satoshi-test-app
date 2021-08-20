@@ -20,8 +20,9 @@ namespace SatoshiTestApp.Components
         {
            salesOrderModel.products = await apiService.Get<List<ProductsModel>>("api/Sales/GetProducts");
            await BindGrid();
+            StateHasChanged();
         }
-        public async void SaveSalesOrder()
+        public async Task SaveSalesOrder()
         {
             statusMessage = string.Empty;
             Console.WriteLine("Save Clicked !!!");

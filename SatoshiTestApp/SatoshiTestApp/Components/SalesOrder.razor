@@ -1,7 +1,7 @@
 ﻿@using Blazorise.DataGrid
 @using SatoshiTestApp.Models
 <h2>Sales Order</h2>
-<EditForm Model="salesOrderModel">
+<EditForm Model="salesOrderModel" >
     @if (salesOrderModel != null)
     {
         <div class="form-group col-md-4">
@@ -28,7 +28,7 @@
         <div class="form-group col-md-2">
             <input type="button" class="btn btn-primary" @onclick="SaveSalesOrder" value="Save" />
 
-            <input type="button" class="btn btn-primary" @onclick="ClearFields" value="Clear" />
+            @*<input type="button" class="btn btn-primary" @onclick="ClearFields" value="Clear" />*@
         </div>
         @if (!string.IsNullOrWhiteSpace(statusMessage))
         {

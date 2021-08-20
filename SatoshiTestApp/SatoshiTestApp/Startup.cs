@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using SatoshiTestApp.Data;
 using SatoshiTestApp.Services;
 using System;
 using System.Collections.Generic;
@@ -35,6 +34,7 @@ namespace SatoshiTestApp
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
+            string val = Configuration.GetValue<string>("apiServiceURL");
             services.AddHttpClient("microservice", options =>
             {
                 options.BaseAddress = new Uri(Configuration.GetValue<string>("apiServiceURL"));

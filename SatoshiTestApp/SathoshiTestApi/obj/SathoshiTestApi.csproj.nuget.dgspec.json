@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dines\\source\\repos\\SatoshiTestApp\\SathoshiTestApi\\SathoshiTestApi.csproj": {}
+    "D:\\Sample Projects\\Git\\SatoshiTestApp\\SathoshiTestApi\\SathoshiTestApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dines\\source\\repos\\SatoshiTestApp\\SathoshiTestApi\\SathoshiTestApi.csproj": {
+    "D:\\Sample Projects\\Git\\SatoshiTestApp\\SathoshiTestApi\\SathoshiTestApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dines\\source\\repos\\SatoshiTestApp\\SathoshiTestApi\\SathoshiTestApi.csproj",
+        "projectUniqueName": "D:\\Sample Projects\\Git\\SatoshiTestApp\\SathoshiTestApi\\SathoshiTestApi.csproj",
         "projectName": "SathoshiTestApi",
-        "projectPath": "C:\\Users\\dines\\source\\repos\\SatoshiTestApp\\SathoshiTestApi\\SathoshiTestApi.csproj",
+        "projectPath": "D:\\Sample Projects\\Git\\SatoshiTestApp\\SathoshiTestApi\\SathoshiTestApi.csproj",
         "packagesPath": "C:\\Users\\dines\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dines\\source\\repos\\SatoshiTestApp\\SathoshiTestApi\\obj\\",
+        "outputPath": "D:\\Sample Projects\\Git\\SatoshiTestApp\\SathoshiTestApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

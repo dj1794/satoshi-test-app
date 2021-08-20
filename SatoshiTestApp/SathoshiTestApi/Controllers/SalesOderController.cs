@@ -32,9 +32,10 @@ namespace SathoshiTestApi.Controllers
         }
         [HttpPost]
         [Route("SaveOrders")]
-        public async Task<IActionResult> SaveOrders(SalesOrderModel salesOrder)
+        public async Task<IActionResult> SaveOrders([FromBodyAttribute] SalesOrderModel salesOrder)
         {
-            return Ok(await dataService.SaveOrder(salesOrder));
+            var status = await dataService.SaveOrder(salesOrder);
+            return Ok(status);
         }
     }
 }

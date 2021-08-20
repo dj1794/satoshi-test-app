@@ -11,9 +11,9 @@ namespace SatoshiTestApp.Services
     public class ApiService : IApiService
     {
         private HttpClient apiClient;
-        public ApiService(HttpClient _apiClient)
+        public ApiService(IHttpClientFactory _apiClient)
         {
-           apiClient = _apiClient;
+           apiClient = _apiClient.CreateClient("microservice");
         }
      
 

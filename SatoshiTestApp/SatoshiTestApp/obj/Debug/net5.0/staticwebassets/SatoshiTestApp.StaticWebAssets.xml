@@ -1,5 +1,5 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="C:\Users\dines\source\repos\SatoshiTestApp\SatoshiTestApp\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="D:\Sample Projects\Git\SatoshiTestApp\SatoshiTestApp\obj\Debug\net5.0\scopedcss\bundle\" />
   <ContentRoot BasePath="_content/Blazorise" Path="C:\Users\dines\.nuget\packages\blazorise\0.9.4.3\build\..\staticwebassets\" />
   <ContentRoot BasePath="_content/Blazorise.Bootstrap" Path="C:\Users\dines\.nuget\packages\blazorise.bootstrap\0.9.4.3\build\..\staticwebassets\" />
   <ContentRoot BasePath="_content/Blazorise.DataGrid" Path="C:\Users\dines\.nuget\packages\blazorise.datagrid\0.9.4.3\build\..\staticwebassets\" />
