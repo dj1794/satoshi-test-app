@@ -1,0 +1,12 @@
+D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\Satoshi.Domain\bin\Debug\net6.0\Satoshi.Domain.deps.json
+D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\Satoshi.Domain\bin\Debug\net6.0\Satoshi.Domain.dll
+D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\Satoshi.Domain\bin\Debug\net6.0\Satoshi.Domain.pdb
+D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\Satoshi.Domain\obj\Debug\net6.0\Satoshi.Domain.csproj.AssemblyReference.cache
+D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\Satoshi.Domain\obj\Debug\net6.0\Satoshi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\Satoshi.Domain\obj\Debug\net6.0\Satoshi.Domain.AssemblyInfoInputs.cache
+D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\Satoshi.Domain\obj\Debug\net6.0\Satoshi.Domain.AssemblyInfo.cs
+D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\Satoshi.Domain\obj\Debug\net6.0\Satoshi.Domain.csproj.CoreCompileInputs.cache
+D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\Satoshi.Domain\obj\Debug\net6.0\Satoshi.Domain.dll
+D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\Satoshi.Domain\obj\Debug\net6.0\refint\Satoshi.Domain.dll
+D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\Satoshi.Domain\obj\Debug\net6.0\Satoshi.Domain.pdb
+D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\Satoshi.Domain\obj\Debug\net6.0\ref\Satoshi.Domain.dll

@@ -1,0 +1,24 @@
+version: '3.4'
+
+services:
+  satoshitestapp:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - '52001:80'
+    networks:
+      - phlo_dev
+
+  satoshitestapi:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - '52002:80'
+    networks:
+      - phlo_dev
+  sql-server-db:
+    networks:
+      - phlo_dev
+networks:
+  phlo_dev:
+    driver: bridge

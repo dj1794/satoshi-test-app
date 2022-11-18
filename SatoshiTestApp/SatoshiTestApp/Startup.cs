@@ -39,7 +39,7 @@ namespace SatoshiTestApp
                 options.BaseAddress = new Uri(Configuration.GetValue<string>("apiServiceURL"));
             });
             services.AddScoped<IApiService, ApiService>();
-            services.AddBlazorise(options => options.ChangeTextOnKeyPress = true).AddBootstrapProviders().AddFontAwesomeIcons();
+            services.AddBlazorise().AddBootstrapProviders().AddFontAwesomeIcons();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

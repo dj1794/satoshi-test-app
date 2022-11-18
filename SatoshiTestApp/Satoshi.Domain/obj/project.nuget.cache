@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eEqmnM6mOgBVV+mxRvXgj8ovMxrLfIMZGt/WKA6bbOAsaTo8lJzLCJOefgRO8LI4r+UVGPKJGOU7xrJdWh7pFA==",
+  "dgSpecHash": "iYpPbnI0Hu1fg49eBEJavLm7cqgpTIcEGtWVp3yfatJ7jtQbtQfLdvkLZDcrvf3+h4WgzksVWMPlgvXS3KeRNQ==",
   "success": true,
-  "projectFilePath": "D:\\Sample Projects\\Git\\SatoshiTestApp\\Satoshi.Domain\\Satoshi.Domain.csproj",
+  "projectFilePath": "D:\\Pesonal\\Blazor\\satoshi-test-app\\SatoshiTestApp\\Satoshi.Domain\\Satoshi.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

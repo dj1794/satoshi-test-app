@@ -32,7 +32,7 @@ namespace SathoshiTestApi
 
             services.AddControllers();
             services.AddScoped<IDataService, EntityDataService>();
-            services.AddDbContextPool<SatoshiTestDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("SatoshiTestDB")));
+            services.AddDbContextPool<SatoshiTestDbContext>(options =>options.UseSqlServer(Configuration.GetConnectionString("SatoshiTestDB"))) ;
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "SathoshiTestApi", Version = "v1" });
@@ -48,7 +48,11 @@ namespace SathoshiTestApi
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "SathoshiTestApi v1"));
             }
-
+            using (var serviceScope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())
+            {
+                var context = serviceScope.ServiceProvider.GetRequiredService<SatoshiTestDbContext>();
+                context.Database.EnsureCreated();
+            }
             app.UseHttpsRedirection();
 
             app.UseRouting();

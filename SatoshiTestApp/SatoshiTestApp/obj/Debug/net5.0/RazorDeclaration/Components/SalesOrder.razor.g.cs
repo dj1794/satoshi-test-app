@@ -13,84 +13,84 @@ namespace SatoshiTestApp.Components
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "D:\Sample Projects\Git\SatoshiTestApp\SatoshiTestApp\_Imports.razor"
+#line 1 "D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\SatoshiTestApp\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "D:\Sample Projects\Git\SatoshiTestApp\SatoshiTestApp\_Imports.razor"
+#line 2 "D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\SatoshiTestApp\_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "D:\Sample Projects\Git\SatoshiTestApp\SatoshiTestApp\_Imports.razor"
+#line 3 "D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\SatoshiTestApp\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "D:\Sample Projects\Git\SatoshiTestApp\SatoshiTestApp\_Imports.razor"
+#line 4 "D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\SatoshiTestApp\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "D:\Sample Projects\Git\SatoshiTestApp\SatoshiTestApp\_Imports.razor"
+#line 5 "D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\SatoshiTestApp\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "D:\Sample Projects\Git\SatoshiTestApp\SatoshiTestApp\_Imports.razor"
+#line 6 "D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\SatoshiTestApp\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "D:\Sample Projects\Git\SatoshiTestApp\SatoshiTestApp\_Imports.razor"
+#line 7 "D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\SatoshiTestApp\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "D:\Sample Projects\Git\SatoshiTestApp\SatoshiTestApp\_Imports.razor"
+#line 8 "D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\SatoshiTestApp\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "D:\Sample Projects\Git\SatoshiTestApp\SatoshiTestApp\_Imports.razor"
+#line 9 "D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\SatoshiTestApp\_Imports.razor"
 using SatoshiTestApp;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "D:\Sample Projects\Git\SatoshiTestApp\SatoshiTestApp\_Imports.razor"
+#line 10 "D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\SatoshiTestApp\_Imports.razor"
 using SatoshiTestApp.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 1 "D:\Sample Projects\Git\SatoshiTestApp\SatoshiTestApp\Components\SalesOrder.razor"
+#line 1 "D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\SatoshiTestApp\Components\SalesOrder.razor"
 using Blazorise.DataGrid;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "D:\Sample Projects\Git\SatoshiTestApp\SatoshiTestApp\Components\SalesOrder.razor"
+#line 2 "D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\SatoshiTestApp\Components\SalesOrder.razor"
 using Satoshi.Domain.Sales;
 
 #line default

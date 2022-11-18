@@ -1,0 +1,56 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SatoshiTestApp
+build_property.RootNamespace = SatoshiTestApp
+build_property.ProjectDir = D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\SatoshiTestApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp\SatoshiTestApp
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Pesonal/Blazor/satoshi-test-app/SatoshiTestApp/SatoshiTestApp/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Pesonal/Blazor/satoshi-test-app/SatoshiTestApp/SatoshiTestApp/Components/SalesOrder.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTYWxlc09yZGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Pesonal/Blazor/satoshi-test-app/SatoshiTestApp/SatoshiTestApp/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Pesonal/Blazor/satoshi-test-app/SatoshiTestApp/SatoshiTestApp/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Pesonal/Blazor/satoshi-test-app/SatoshiTestApp/SatoshiTestApp/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Pesonal/Blazor/satoshi-test-app/SatoshiTestApp/SatoshiTestApp/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Pesonal/Blazor/satoshi-test-app/SatoshiTestApp/SatoshiTestApp/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-bqxfem05wc
+
+[D:/Pesonal/Blazor/satoshi-test-app/SatoshiTestApp/SatoshiTestApp/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-q42jpf4706
+
+[D:/Pesonal/Blazor/satoshi-test-app/SatoshiTestApp/SatoshiTestApp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Pesonal/Blazor/satoshi-test-app/SatoshiTestApp/SatoshiTestApp/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31025.194
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatoshiTestApp", "SatoshiTestApp\SatoshiTestApp.csproj", "{8316E66C-9C19-4405-94B0-976346B8EFEA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SathoshiTestApi", "SathoshiTestApi\SathoshiTestApi.csproj", "{5F2EBF62-9553-4A26-9C6D-3B54F36B7ED5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Satoshi.Domain", "Satoshi.Domain\Satoshi.Domain.csproj", "{9F69F63B-0664-4BD9-B6DC-31B4D0E3D934}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Satoshi.Domain", "Satoshi.Domain\Satoshi.Domain.csproj", "{9F69F63B-0664-4BD9-B6DC-31B4D0E3D934}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{DC91F46E-6D88-41A2-9701-D5BCFF8494F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{9F69F63B-0664-4BD9-B6DC-31B4D0E3D934}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F69F63B-0664-4BD9-B6DC-31B4D0E3D934}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F69F63B-0664-4BD9-B6DC-31B4D0E3D934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC91F46E-6D88-41A2-9701-D5BCFF8494F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC91F46E-6D88-41A2-9701-D5BCFF8494F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC91F46E-6D88-41A2-9701-D5BCFF8494F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC91F46E-6D88-41A2-9701-D5BCFF8494F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

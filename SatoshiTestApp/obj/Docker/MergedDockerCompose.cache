@@ -1,0 +1,47 @@
+name: dockercompose10084267728433468221
+services:
+  satoshitestapi:
+    build:
+      context: D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp
+      dockerfile: SathoshiTestApi/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: satoshitestapi:1.0
+    networks:
+      phlo_dev: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "52002"
+      protocol: tcp
+  satoshitestapp:
+    build:
+      context: D:\Pesonal\Blazor\satoshi-test-app\SatoshiTestApp
+      dockerfile: SatoshiTestApp/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: satoshitestapp:1.0
+    networks:
+      phlo_dev: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "52001"
+      protocol: tcp
+  sql-server-db:
+    container_name: sql-server-db
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: phlo@123
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    networks:
+      phlo_dev: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1433"
+      protocol: tcp
+networks:
+  phlo_dev:
+    name: dockercompose10084267728433468221_phlo_dev
+    driver: bridge

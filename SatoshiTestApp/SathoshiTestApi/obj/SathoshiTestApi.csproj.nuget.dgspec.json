@@ -1,41 +1,41 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Sample Projects\\Git\\SatoshiTestApp\\SathoshiTestApi\\SathoshiTestApi.csproj": {}
+    "D:\\Pesonal\\Blazor\\satoshi-test-app\\SatoshiTestApp\\SathoshiTestApi\\SathoshiTestApi.csproj": {}
   },
   "projects": {
-    "D:\\Sample Projects\\Git\\SatoshiTestApp\\SathoshiTestApi\\SathoshiTestApi.csproj": {
+    "D:\\Pesonal\\Blazor\\satoshi-test-app\\SatoshiTestApp\\SathoshiTestApi\\SathoshiTestApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Sample Projects\\Git\\SatoshiTestApp\\SathoshiTestApi\\SathoshiTestApi.csproj",
+        "projectUniqueName": "D:\\Pesonal\\Blazor\\satoshi-test-app\\SatoshiTestApp\\SathoshiTestApi\\SathoshiTestApi.csproj",
         "projectName": "SathoshiTestApi",
-        "projectPath": "D:\\Sample Projects\\Git\\SatoshiTestApp\\SathoshiTestApi\\SathoshiTestApi.csproj",
-        "packagesPath": "C:\\Users\\dines\\.nuget\\packages\\",
-        "outputPath": "D:\\Sample Projects\\Git\\SatoshiTestApp\\SathoshiTestApi\\obj\\",
+        "projectPath": "D:\\Pesonal\\Blazor\\satoshi-test-app\\SatoshiTestApp\\SathoshiTestApi\\SathoshiTestApi.csproj",
+        "packagesPath": "C:\\Users\\dinesh.joshi\\.nuget\\packages\\",
+        "outputPath": "D:\\Pesonal\\Blazor\\satoshi-test-app\\SatoshiTestApp\\SathoshiTestApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\dines\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\dinesh.joshi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Packages\\Telerik-Blazor\\packages": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/nuget": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Sample Projects\\Git\\SatoshiTestApp\\Satoshi.Domain\\Satoshi.Domain.csproj": {
-                "projectPath": "D:\\Sample Projects\\Git\\SatoshiTestApp\\Satoshi.Domain\\Satoshi.Domain.csproj"
+              "D:\\Pesonal\\Blazor\\satoshi-test-app\\SatoshiTestApp\\Satoshi.Domain\\Satoshi.Domain.csproj": {
+                "projectPath": "D:\\Pesonal\\Blazor\\satoshi-test-app\\SatoshiTestApp\\Satoshi.Domain\\Satoshi.Domain.csproj"
               }
             }
           }
@@ -47,22 +47,26 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.4.0, )"
             },
             "System.Net.Http": {
               "target": "Package",
@@ -75,7 +79,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -87,39 +92,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Sample Projects\\Git\\SatoshiTestApp\\Satoshi.Domain\\Satoshi.Domain.csproj": {
+    "D:\\Pesonal\\Blazor\\satoshi-test-app\\SatoshiTestApp\\Satoshi.Domain\\Satoshi.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Sample Projects\\Git\\SatoshiTestApp\\Satoshi.Domain\\Satoshi.Domain.csproj",
+        "projectUniqueName": "D:\\Pesonal\\Blazor\\satoshi-test-app\\SatoshiTestApp\\Satoshi.Domain\\Satoshi.Domain.csproj",
         "projectName": "Satoshi.Domain",
-        "projectPath": "D:\\Sample Projects\\Git\\SatoshiTestApp\\Satoshi.Domain\\Satoshi.Domain.csproj",
-        "packagesPath": "C:\\Users\\dines\\.nuget\\packages\\",
-        "outputPath": "D:\\Sample Projects\\Git\\SatoshiTestApp\\Satoshi.Domain\\obj\\",
+        "projectPath": "D:\\Pesonal\\Blazor\\satoshi-test-app\\SatoshiTestApp\\Satoshi.Domain\\Satoshi.Domain.csproj",
+        "packagesPath": "C:\\Users\\dinesh.joshi\\.nuget\\packages\\",
+        "outputPath": "D:\\Pesonal\\Blazor\\satoshi-test-app\\SatoshiTestApp\\Satoshi.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\dines\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\dinesh.joshi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Packages\\Telerik-Blazor\\packages": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/nuget": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -130,15 +135,16 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -147,7 +153,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
